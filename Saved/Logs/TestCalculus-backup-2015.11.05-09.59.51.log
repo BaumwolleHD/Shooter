@@ -1,0 +1,279 @@
+﻿[2015.11.05-08.41.30:972][  0]Log file open, 11/05/15 09:41:30
+[2015.11.05-08.41.30:972][  0]LogInit:Display: Running engine for game: TestCalculus
+[2015.11.05-08.41.30:972][  0]LogInit:Display: RandInit(363086993) SRandInit(363086994).
+[2015.11.05-08.41.30:972][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.05-08.41.30:972][  0]LogStats: Stats thread started at 0.285039
+[2015.11.05-08.41.30:972][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.11.05-08.41.30:972][  0]LogInit: API Version: 2672455
+[2015.11.05-08.41.30:976][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.11.05-08.41.30:976][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.05-08.41.30:976][  0]LogInit: Build Configuration: Development
+[2015.11.05-08.41.30:976][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.05-08.41.30:976][  0]LogInit: Command line:  
+[2015.11.05-08.41.30:976][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.05-08.41.30:976][  0]LogInit: Rocket: 1
+[2015.11.05-08.41.31:076][  0]LogInit: Using libcurl 7.41.0
+[2015.11.05-08.41.31:076][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.05-08.41.31:076][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.05-08.41.31:076][  0]LogInit:  - other features:
+[2015.11.05-08.41.31:076][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.05-08.41.31:076][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.05-08.41.31:076][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.05-08.41.31:076][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.05-08.41.31:076][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.05-08.41.31:080][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.05-08.41.31:080][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.05-08.41.31:080][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.05-08.41.31:080][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.05-08.41.31:080][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.05-08.41.31:232][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.05-08.41.31:288][  0]LogInit: Object subsystem initialized
+[2015.11.05-08.41.31:320][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.05-08.41.31:320][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.05-08.41.31:401][  0]LogInit: Computer: JP-NB
+[2015.11.05-08.41.31:401][  0]LogInit: User: JP
+[2015.11.05-08.41.31:401][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.05-08.41.31:401][  0]LogInit: High frequency timer resolution =2.238827 MHz
+[2015.11.05-08.41.31:402][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2015.11.05-08.41.31:403][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.05-08.41.31:403][  0]LogMemory: Process Physical Memory: 54.92 MB used, 54.92 MB peak
+[2015.11.05-08.41.31:403][  0]LogMemory: Process Virtual Memory: 57.53 MB used, 57.53 MB peak
+[2015.11.05-08.41.31:403][  0]LogMemory: Physical Memory: 2413.11 MB used, 32543.23 MB total
+[2015.11.05-08.41.31:403][  0]LogMemory: Virtual Memory: 367.36 MB used, 134217728.00 MB total
+[2015.11.05-08.41.32:225][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2015.11.05-08.41.35:633][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro 2000M  (Feature Level 11_0)
+[2015.11.05-08.41.35:633][  0]LogD3D11RHI: Adapter has 1984MB of dedicated video memory, 0MB of dedicated system memory, and 16271MB of shared system memory, 1 output[s]
+[2015.11.05-08.41.35:683][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA Quadro 2000M  (Feature Level 11_0)
+[2015.11.05-08.41.35:683][  0]LogD3D11RHI: Adapter has 1984MB of dedicated video memory, 0MB of dedicated system memory, and 16271MB of shared system memory, 0 output[s]
+[2015.11.05-08.41.35:694][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.05-08.41.35:694][  0]LogD3D11RHI: Adapter has 1984MB of dedicated video memory, 0MB of dedicated system memory, and 16271MB of shared system memory, 0 output[s]
+[2015.11.05-08.41.35:694][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.05-08.41.35:711][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.05-08.41.35:712][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.05-08.41.35:751][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.05-08.41.35:817][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Intermediate/Shaders/WorkingDirectory/5280/).
+[2015.11.05-08.41.35:818][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Intermediate/Shaders/tmp/E1371F7249F4C7EF652EED840EE9B1D3/'.
+[2015.11.05-08.41.35:818][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.05-08.41.43:283][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.05-08.41.43:309][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.05-08.41.43:334][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.05-08.41.43:359][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.05-08.41.43:383][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.05-08.41.43:410][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.05-08.41.43:427][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.05-08.41.43:443][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.05-08.41.43:459][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.05-08.41.43:476][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.05-08.41.43:494][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.05-08.41.43:512][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.05-08.41.43:515][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.05-08.41.43:661][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.05-08.41.43:677][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.05-08.41.43:693][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.05-08.41.43:720][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.05-08.41.43:720][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.05-08.41.45:010][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.05-08.41.45:500][  0]LogDerivedDataCache: Loaded boot cache 0.49s 45MB C:/Users/JP/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.05-08.41.45:500][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/JP/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.05-08.41.45:501][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.05-08.41.45:501][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.05-08.41.45:501][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.05-08.41.45:501][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.05-08.41.46:162][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.05-08.41.46:180][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JP/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.05-08.41.57:397][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.05-08.41.57:422][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.05-08.41.58:199][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.05-08.41.58:199][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.05-08.42.00:206][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.05-08.42.08:101][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.05-08.42.08:461][  0]LogAssetRegistry: FAssetRegistry took 0.0151 seconds to start up
+[2015.11.05-08.42.09:617][  0]SourceControl: Info Source control is disabled
+[2015.11.05-08.42.09:816][  0]SourceControl: Info Source control is disabled
+[2015.11.05-08.42.09:881][  0]SourceControl: Info Source control is disabled
+[2015.11.05-08.42.09:942][  0]SourceControl: Info Source control is disabled
+[2015.11.05-08.42.10:889][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.05-08.42.11:425][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.05-08.42.11:425][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.11.05-08.42.11:733][  0]LogEngine: Initializing Engine...
+[2015.11.05-08.42.11:749][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.11.05-08.42.11:787][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.05-08.42.12:609][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.05-08.42.12:646][  0]LogInit: XAudio2 using 'Lautsprecher (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-08.42.12:751][  0]LogInit: FAudioDevice initialized.
+[2015.11.05-08.42.12:818][  0]LogDerivedDataCache: Saved boot cache 0.07s 45MB C:/Users/JP/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.05-08.42.12:838][  0]LogInit: Texture streaming: Enabled
+[2015.11.05-08.42.12:866][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.05-08.42.12:867][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.11.05-08.42.12:867][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 02f9931b41d1f4ef4dc221b8121fa02b|277d02e3096a4399bbeaa38ffd3065cb|4cacd79e-4803-44fe-a480-b8f0a3c93d8e
+[2015.11.05-08.42.12:867][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.05-08.42.12:912][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.05-08.42.13:031][  0]LogInit: Transaction tracking system initialized
+[2015.11.05-08.42.13:221][  0]BlueprintLog: New page: Editor Load
+[2015.11.05-08.42.13:778][  0]LocalizationService: Info Localization service is disabled
+[2015.11.05-08.42.14:950][  0]LogConsoleResponse:Display: 
+[2015.11.05-08.42.15:968][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.05-08.42.16:369][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JP/Documents/Unreal Projects/TestCalculus/Content/' took 0.03s
+[2015.11.05-08.42.16:369][  0]SourceControl: Info Source control is disabled
+[2015.11.05-08.42.16:372][  0]Cmd: MAP LOAD FILE="../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.05-08.42.16:386][  0]LightingResults: New page: Lighting Build
+[2015.11.05-08.42.16:411][  0]MapCheck: New page: Map Check
+[2015.11.05-08.42.16:411][  0]LightingResults: New page: Lighting Build
+[2015.11.05-08.42.16:457][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007DA6914400
+[2015.11.05-08.42.17:441][  0]LogLinker:Warning: Asset '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.05-08.42.20:231][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-08.42.20:308][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.05-08.42.20:312][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.05-08.42.20:604][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 290.962ms to complete.
+[2015.11.05-08.42.20:605][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 4.233
+[2015.11.05-08.42.21:047][  0]LogCollectionManager: Loaded 0 collections in 0.013422 seconds
+[2015.11.05-08.42.21:132][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JP/Documents/Unreal Projects/TestCalculus/Saved/Collections/' took 0.01s
+[2015.11.05-08.42.21:132][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JP/Documents/Unreal Projects/TestCalculus/Content/Developers/JP/Collections/' took 0.01s
+[2015.11.05-08.42.21:132][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JP/Documents/Unreal Projects/TestCalculus/Content/Collections/' took 0.01s
+[2015.11.05-08.42.21:132][  0]LogContentBrowser: Native class hierarchy populated in 0.0326 seconds. Added 1867 classes and 333 folders.
+[2015.11.05-08.42.21:168][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
+[2015.11.05-08.42.21:210][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2015.11.05-08.42.22:299][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2015.11.05-08.42.22:354][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2015.11.05-08.42.22:813][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.05-08.42.22:846][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.05-08.42.22:874][  0]LogLoad: Full Startup: 55.36 seconds (BP compile: 0.81 seconds)
+[2015.11.05-08.42.23:244][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.11.05-08.42.23:851][  0]LogRenderer: Reallocating scene render targets to support 1172x520 (Frame:2).
+[2015.11.05-08.42.25:148][ 11]LogAssetRegistry: Asset discovery search completed in 16.6999 seconds
+[2015.11.05-08.42.25:148][ 11]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2015.11.05-08.42.25:149][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000134 seconds (updated 0 objects)
+[2015.11.05-08.42.26:358][ 34]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-08.42.26:359][ 34]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 10:42:26 AM)
+[2015.11.05-08.42.26:360][ 34]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-08.42.26:452][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091178s)
+[2015.11.05-08.42.26:455][ 34]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-08.42.26:455][ 34]LogPlayLevel: PIE: World Init took: (0.003281s)
+[2015.11.05-08.42.26:457][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.096608s)
+[2015.11.05-08.42.26:565][ 34]LogInit: XAudio2 using 'Lautsprecher (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-08.42.26:588][ 34]LogInit: FAudioDevice initialized.
+[2015.11.05-08.42.26:716][ 34]LogLinker:Warning: Asset '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.05-08.42.26:841][ 34]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.05-08.42.26:876][ 34]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.11.05-09.42.26
+[2015.11.05-08.42.26:877][ 34]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-08.42.26:878][ 34]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-08.42.26:881][ 34]LogWorld: Bringing up level for play took: 0.032134
+[2015.11.05-08.42.26:896][ 34]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.322
+[2015.11.05-08.42.34:922][355]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.05-08.42.37:520][355]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0030 seconds. Added 107 classes and 0 folders.
+[2015.11.05-08.43.12:184][ 80]LogSelection:Warning: PIE object was selected: "FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_6"
+[2015.11.05-08.44.09:251][548]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007D9526D3A0
+[2015.11.05-08.44.09:253][548]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007D95D10400
+[2015.11.05-08.44.09:892][557]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.05-08.44.09:897][557]LogPlayLevel: [PlayLevel] Compiling FirstPersonProjectile before play...
+[2015.11.05-08.44.10:224][557]LogPlayLevel: PlayLevel: Blueprint regeneration took 332 ms (2 blueprints)
+[2015.11.05-08.44.10:229][557]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2015.11.05-08.44.10:546][557]LogPlayLevel: PlayLevel: Blueprint regeneration took 653 ms (2 blueprints)
+[2015.11.05-08.44.10:633][557]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 10:44:10 AM)
+[2015.11.05-08.44.10:633][557]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-08.44.10:701][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068189s)
+[2015.11.05-08.44.10:704][557]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-08.44.10:705][557]LogPlayLevel: PIE: World Init took: (0.003277s)
+[2015.11.05-08.44.10:706][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.072616s)
+[2015.11.05-08.44.10:809][557]LogInit: XAudio2 using 'Lautsprecher (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-08.44.10:831][557]LogInit: FAudioDevice initialized.
+[2015.11.05-08.44.10:921][557]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.05-08.44.10:950][557]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.11.05-09.44.10
+[2015.11.05-08.44.10:951][557]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-08.44.10:952][557]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-08.44.10:953][557]LogWorld: Bringing up level for play took: 0.027666
+[2015.11.05-08.44.10:958][557]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.385
+[2015.11.05-08.44.12:533][606]Set new viewmode: Unlit
+[2015.11.05-08.44.16:193][789]LogSelection:Warning: PIE object was selected: "PlayerCameraManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.PlayerCameraManager_1"
+[2015.11.05-08.44.17:105][820]LogSelection:Warning: PIE object was selected: "FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_4"
+[2015.11.05-08.44.55:380][186]Set new viewmode: Wireframe
+[2015.11.05-08.44.56:089][214]Set new viewmode: Unlit
+[2015.11.05-08.44.56:617][235]Set new viewmode: Lit
+[2015.11.05-08.44.56:900][246]Set new viewmode: Lit
+[2015.11.05-08.44.57:266][260]Error: view mode not recognized: detaillighting
+[2015.11.05-08.44.57:816][281]Set new viewmode: ShaderComplexity
+[2015.11.05-08.44.58:443][306]Set new viewmode: ShaderComplexity
+[2015.11.05-08.45.00:019][369]Error: view mode not recognized: detaillighting
+[2015.11.05-08.45.00:584][392]Set new viewmode: Lit
+[2015.11.05-08.45.01:023][409]Set new viewmode: Unlit
+[2015.11.05-08.45.01:631][434]Set new viewmode: Lit
+[2015.11.05-08.45.04:295][534]Set new viewmode: Unlit
+[2015.11.05-08.45.08:924][710]LogSelection:Warning: PIE object was selected: "FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_6"
+[2015.11.05-08.46.21:150][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-08.48.08:250][602]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007D9A68A2A0
+[2015.11.05-08.48.23:376][867]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-08.48.23:511][869]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.11.05-08.48.23:860][869]BlueprintEditorCompileResults: Info [0416.34] Compile of FirstPersonProjectile successful! [in 348 ms]
+[2015.11.05-08.48.27:317][929]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-08.48.27:318][929]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 10:48:27 AM)
+[2015.11.05-08.48.27:318][929]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-08.48.27:392][929]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073508s)
+[2015.11.05-08.48.27:395][929]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-08.48.27:396][929]LogPlayLevel: PIE: World Init took: (0.003577s)
+[2015.11.05-08.48.27:396][929]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.078094s)
+[2015.11.05-08.48.27:397][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-08.48.27:512][929]LogInit: XAudio2 using 'Lautsprecher (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-08.48.27:534][929]LogInit: FAudioDevice initialized.
+[2015.11.05-08.48.27:598][929]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.05-08.48.27:628][929]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.11.05-09.48.27
+[2015.11.05-08.48.27:628][929]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-08.48.27:629][929]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-08.48.27:631][929]LogWorld: Bringing up level for play took: 0.028095
+[2015.11.05-08.48.27:635][929]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.062
+[2015.11.05-08.48.35:064][190]LogSelection:Warning: PIE object was selected: "FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_7"
+[2015.11.05-08.50.34:648][628]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007DCEC07880
+[2015.11.05-08.50.42:169][746]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.11.05-08.50.42:504][746]BlueprintEditorCompileResults: Info [0554.99] Compile of FirstPersonProjectile successful! [in 333 ms]
+[2015.11.05-08.51.16:420][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-08.51.16:420][463]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 10:51:16 AM)
+[2015.11.05-08.51.16:421][463]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-08.51.16:502][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081046s)
+[2015.11.05-08.51.16:505][463]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-08.51.16:506][463]LogPlayLevel: PIE: World Init took: (0.003673s)
+[2015.11.05-08.51.16:506][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.085719s)
+[2015.11.05-08.51.16:507][463]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-08.51.16:622][463]LogInit: XAudio2 using 'Lautsprecher (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-08.51.16:645][463]LogInit: FAudioDevice initialized.
+[2015.11.05-08.51.16:706][463]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.05-08.51.16:735][463]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.11.05-09.51.16
+[2015.11.05-08.51.16:736][463]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-08.51.16:737][463]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-08.51.16:738][463]LogWorld: Bringing up level for play took: 0.027304
+[2015.11.05-08.51.16:743][463]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.169
+[2015.11.05-08.51.22:545][665]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007DCEE36340
+[2015.11.05-08.51.39:884][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-08.51.40:013][961]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.11.05-08.51.40:322][961]BlueprintEditorCompileResults: Info [0612.81] Compile of FirstPersonProjectile successful! [in 307 ms]
+[2015.11.05-08.51.43:311][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-08.51.43:311][ 19]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 10:51:43 AM)
+[2015.11.05-08.51.43:312][ 19]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-08.51.43:383][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070788s)
+[2015.11.05-08.51.43:385][ 19]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-08.51.43:386][ 19]LogPlayLevel: PIE: World Init took: (0.003384s)
+[2015.11.05-08.51.43:387][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.075450s)
+[2015.11.05-08.51.43:387][ 19]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-08.51.43:495][ 19]LogInit: XAudio2 using 'Lautsprecher (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-08.51.43:516][ 19]LogInit: FAudioDevice initialized.
+[2015.11.05-08.51.43:573][ 19]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.05-08.51.43:605][ 19]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.11.05-09.51.43
+[2015.11.05-08.51.43:605][ 19]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-08.51.43:606][ 19]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-08.51.43:607][ 19]LogWorld: Bringing up level for play took: 0.029389
+[2015.11.05-08.51.43:612][ 19]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.038
+[2015.11.05-08.51.52:736][346]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007DC3DD02C0
+[2015.11.05-08.52.30:505][966]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.11.05-08.52.30:738][966]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-08.52.30:835][966]BlueprintEditorCompileResults: Info [0663.32] Compile of FirstPersonProjectile successful! [in 330 ms]
+[2015.11.05-08.52.34:606][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-08.52.34:607][ 36]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 10:52:34 AM)
+[2015.11.05-08.52.34:607][ 36]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-08.52.34:684][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077250s)
+[2015.11.05-08.52.34:687][ 36]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-08.52.34:688][ 36]LogPlayLevel: PIE: World Init took: (0.003513s)
+[2015.11.05-08.52.34:689][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.082013s)
+[2015.11.05-08.52.34:689][ 36]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-08.52.34:796][ 36]LogInit: XAudio2 using 'Lautsprecher (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-08.52.34:817][ 36]LogInit: FAudioDevice initialized.
+[2015.11.05-08.52.34:875][ 36]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.05-08.52.34:903][ 36]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.11.05-09.52.34
+[2015.11.05-08.52

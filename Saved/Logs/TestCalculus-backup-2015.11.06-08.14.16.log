@@ -1,0 +1,931 @@
+﻿[2015.11.05-21.34.29:028][  0]Log file open, 11/05/15 22:34:29
+[2015.11.05-21.34.29:028][  0]LogInit:Display: Running engine for game: TestCalculus
+[2015.11.05-21.34.29:028][  0]LogInit:Display: RandInit(1115782699) SRandInit(1115782700).
+[2015.11.05-21.34.29:028][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.05-21.34.29:028][  0]LogStats: Stats thread started at 0.290301
+[2015.11.05-21.34.29:028][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.11.05-21.34.29:028][  0]LogInit: API Version: 2672455
+[2015.11.05-21.34.29:028][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.11.05-21.34.29:028][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.05-21.34.29:028][  0]LogInit: Build Configuration: Development
+[2015.11.05-21.34.29:028][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.05-21.34.29:028][  0]LogInit: Command line:  
+[2015.11.05-21.34.29:028][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.05-21.34.29:028][  0]LogInit: Rocket: 1
+[2015.11.05-21.34.29:120][  0]LogInit: Using libcurl 7.41.0
+[2015.11.05-21.34.29:120][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.05-21.34.29:120][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.05-21.34.29:120][  0]LogInit:  - other features:
+[2015.11.05-21.34.29:120][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.05-21.34.29:120][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.05-21.34.29:120][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.05-21.34.29:120][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.05-21.34.29:120][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.05-21.34.29:121][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.05-21.34.29:121][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.05-21.34.29:121][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.05-21.34.29:121][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.05-21.34.29:121][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.05-21.34.29:292][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.05-21.34.29:349][  0]LogInit: Object subsystem initialized
+[2015.11.05-21.34.29:371][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.05-21.34.29:372][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.05-21.34.29:453][  0]LogInit: Computer: JP-NB
+[2015.11.05-21.34.29:454][  0]LogInit: User: JP
+[2015.11.05-21.34.29:454][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.05-21.34.29:454][  0]LogInit: High frequency timer resolution =2.238827 MHz
+[2015.11.05-21.34.29:455][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2015.11.05-21.34.29:455][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.05-21.34.29:455][  0]LogMemory: Process Physical Memory: 54.97 MB used, 54.97 MB peak
+[2015.11.05-21.34.29:455][  0]LogMemory: Process Virtual Memory: 57.81 MB used, 57.81 MB peak
+[2015.11.05-21.34.29:455][  0]LogMemory: Physical Memory: 3753.36 MB used, 32543.23 MB total
+[2015.11.05-21.34.29:455][  0]LogMemory: Virtual Memory: 367.36 MB used, 134217728.00 MB total
+[2015.11.05-21.34.30:375][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2015.11.05-21.34.34:261][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro 2000M  (Feature Level 11_0)
+[2015.11.05-21.34.34:261][  0]LogD3D11RHI: Adapter has 1984MB of dedicated video memory, 0MB of dedicated system memory, and 16271MB of shared system memory, 1 output[s]
+[2015.11.05-21.34.34:310][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA Quadro 2000M  (Feature Level 11_0)
+[2015.11.05-21.34.34:310][  0]LogD3D11RHI: Adapter has 1984MB of dedicated video memory, 0MB of dedicated system memory, and 16271MB of shared system memory, 0 output[s]
+[2015.11.05-21.34.34:320][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.05-21.34.34:320][  0]LogD3D11RHI: Adapter has 1984MB of dedicated video memory, 0MB of dedicated system memory, and 16271MB of shared system memory, 0 output[s]
+[2015.11.05-21.34.34:320][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.05-21.34.34:338][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.05-21.34.34:338][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.05-21.34.34:379][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.05-21.34.34:441][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Intermediate/Shaders/WorkingDirectory/3904/).
+[2015.11.05-21.34.34:442][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Intermediate/Shaders/tmp/8201E2B84B6F0785A3F02BB5227C1010/'.
+[2015.11.05-21.34.34:442][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.05-21.34.44:060][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.05-21.34.44:097][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.05-21.34.44:127][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.05-21.34.44:163][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.05-21.34.44:191][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.05-21.34.44:220][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.05-21.34.44:241][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.05-21.34.44:260][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.05-21.34.44:285][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.05-21.34.44:299][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.05-21.34.44:317][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.05-21.34.44:334][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.05-21.34.44:337][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.05-21.34.44:487][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.05-21.34.44:504][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.05-21.34.44:519][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.05-21.34.44:550][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.05-21.34.44:550][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.05-21.34.46:006][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.05-21.34.46:402][  0]LogDerivedDataCache: Loaded boot cache 0.40s 41MB C:/Users/JP/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.05-21.34.46:402][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/JP/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.05-21.34.46:403][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.05-21.34.46:403][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.05-21.34.46:403][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.05-21.34.46:403][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.05-21.34.47:251][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.05-21.34.47:276][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JP/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.05-21.35.00:125][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.05-21.35.00:151][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.05-21.35.00:983][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.05-21.35.00:983][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.05-21.35.03:069][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.05-21.35.10:757][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.05-21.35.11:103][  0]LogAssetRegistry: FAssetRegistry took 0.0140 seconds to start up
+[2015.11.05-21.35.12:403][  0]SourceControl: Info Source control is disabled
+[2015.11.05-21.35.12:460][  0]SourceControl: Info Source control is disabled
+[2015.11.05-21.35.12:529][  0]SourceControl: Info Source control is disabled
+[2015.11.05-21.35.12:599][  0]SourceControl: Info Source control is disabled
+[2015.11.05-21.35.13:670][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.05-21.35.14:286][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.05-21.35.14:286][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.11.05-21.35.14:638][  0]LogEngine: Initializing Engine...
+[2015.11.05-21.35.14:654][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.11.05-21.35.14:700][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.05-21.35.15:647][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.05-21.35.15:684][  0]LogInit: XAudio2 using 'Lautsprecher (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-21.35.15:782][  0]LogInit: FAudioDevice initialized.
+[2015.11.05-21.35.15:843][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/JP/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.05-21.35.15:864][  0]LogInit: Texture streaming: Enabled
+[2015.11.05-21.35.15:900][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.05-21.35.15:901][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.11.05-21.35.15:902][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 02f9931b41d1f4ef4dc221b8121fa02b|277d02e3096a4399bbeaa38ffd3065cb|4cacd79e-4803-44fe-a480-b8f0a3c93d8e
+[2015.11.05-21.35.15:902][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.05-21.35.16:082][  0]LogInit: Transaction tracking system initialized
+[2015.11.05-21.35.16:289][  0]BlueprintLog: New page: Editor Load
+[2015.11.05-21.35.17:176][  0]LocalizationService: Info Localization service is disabled
+[2015.11.05-21.35.18:364][  0]LogConsoleResponse:Display: 
+[2015.11.05-21.35.19:550][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.05-21.35.20:039][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JP/Documents/Unreal Projects/TestCalculus/Content/' took 0.03s
+[2015.11.05-21.35.20:039][  0]SourceControl: Info Source control is disabled
+[2015.11.05-21.35.20:042][  0]Cmd: MAP LOAD FILE="../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.05-21.35.20:056][  0]LightingResults: New page: Lighting Build
+[2015.11.05-21.35.20:083][  0]MapCheck: New page: Map Check
+[2015.11.05-21.35.20:083][  0]LightingResults: New page: Lighting Build
+[2015.11.05-21.35.20:144][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003B83010400
+[2015.11.05-21.35.21:330][  0]LogLinker:Warning: Asset '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.05-21.35.25:253][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-21.35.25:332][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.05-21.35.25:335][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.05-21.35.25:671][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 335.77ms to complete.
+[2015.11.05-21.35.25:672][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 5.631
+[2015.11.05-21.35.26:211][  0]LogCollectionManager: Loaded 0 collections in 0.015166 seconds
+[2015.11.05-21.35.26:315][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JP/Documents/Unreal Projects/TestCalculus/Saved/Collections/' took 0.01s
+[2015.11.05-21.35.26:315][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JP/Documents/Unreal Projects/TestCalculus/Content/Developers/JP/Collections/' took 0.01s
+[2015.11.05-21.35.26:315][  0]LogFileCache: Scanning file cache for directory 'C:/Users/JP/Documents/Unreal Projects/TestCalculus/Content/Collections/' took 0.01s
+[2015.11.05-21.35.26:315][  0]LogContentBrowser: Native class hierarchy populated in 0.0527 seconds. Added 1867 classes and 333 folders.
+[2015.11.05-21.35.26:357][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
+[2015.11.05-21.35.26:402][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2015.11.05-21.35.27:496][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2015.11.05-21.35.27:560][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2015.11.05-21.35.28:010][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.05-21.35.28:038][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.05-21.35.28:066][  0]LogLoad: Full Startup: 62.87 seconds (BP compile: 1.19 seconds)
+[2015.11.05-21.35.28:731][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.11.05-21.35.29:467][  0]LogRenderer: Reallocating scene render targets to support 1172x456 (Frame:2).
+[2015.11.05-21.35.33:017][ 11]LogAssetRegistry: Asset discovery search completed in 21.9263 seconds
+[2015.11.05-21.35.33:017][ 11]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2015.11.05-21.35.33:019][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000131 seconds (updated 0 objects)
+[2015.11.05-21.35.45:425][132]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.11.05-21.35.45:950][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-21.35.45:951][143]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 11:35:45 PM)
+[2015.11.05-21.35.45:952][143]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-21.35.46:038][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085580s)
+[2015.11.05-21.35.46:042][143]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-21.35.46:042][143]LogPlayLevel: PIE: World Init took: (0.003832s)
+[2015.11.05-21.35.46:043][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.091075s)
+[2015.11.05-21.35.46:044][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-21.35.46:167][143]LogInit: XAudio2 using 'Lautsprecher (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-21.35.46:192][143]LogInit: FAudioDevice initialized.
+[2015.11.05-21.35.46:305][143]LogLinker:Warning: Asset '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.05-21.35.46:446][143]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.05-21.35.46:482][143]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.11.05-22.35.46
+[2015.11.05-21.35.46:482][143]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-21.35.46:483][143]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-21.35.46:486][143]LogWorld: Bringing up level for play took: 0.032095
+[2015.11.05-21.35.46:498][143]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.053
+[2015.11.05-21.35.49:106][256]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003B921E6020
+[2015.11.05-21.37.20:456][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-21.37.20:457][673]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 11:37:20 PM)
+[2015.11.05-21.37.20:457][673]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-21.37.20:538][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080531s)
+[2015.11.05-21.37.20:540][673]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-21.37.20:542][673]LogPlayLevel: PIE: World Init took: (0.003631s)
+[2015.11.05-21.37.20:542][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.085473s)
+[2015.11.05-21.37.20:543][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-21.37.20:622][673]LogInit: XAudio2 using 'Lautsprecher (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-21.37.20:645][673]LogInit: FAudioDevice initialized.
+[2015.11.05-21.37.20:711][673]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.05-21.37.20:740][673]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.11.05-22.37.20
+[2015.11.05-21.37.20:741][673]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-21.37.20:742][673]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-21.37.20:743][673]LogWorld: Bringing up level for play took: 0.027450
+[2015.11.05-21.37.20:748][673]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.696
+[2015.11.05-21.37.23:509][806]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] EditorCube11
+[2015.11.05-21.37.25:143][891]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] EditorCube10
+[2015.11.05-21.37.26:159][943]LogBlueprintUserMessages: [FirstPersonProjectile_C_1] Wall1
+[2015.11.05-21.37.44:312][862]LogBlueprintUserMessages: [FirstPersonProjectile_C_2] Wall3
+[2015.11.05-21.37.45:346][913]LogBlueprintUserMessages: [FirstPersonProjectile_C_3] Wall3
+[2015.11.05-21.37.46:483][969]LogBlueprintUserMessages: [FirstPersonProjectile_C_4] Wall3
+[2015.11.05-21.37.47:498][ 18]LogBlueprintUserMessages: [FirstPersonProjectile_C_5] Wall3
+[2015.11.05-21.37.48:445][ 64]LogBlueprintUserMessages: [FirstPersonProjectile_C_6] Wall3
+[2015.11.05-21.37.49:879][132]LogBlueprintUserMessages: [FirstPersonProjectile_C_7] Wall3
+[2015.11.05-21.37.50:882][180]LogBlueprintUserMessages: [FirstPersonProjectile_C_8] Wall3
+[2015.11.05-21.37.51:177][193]LogBlueprintUserMessages: [FirstPersonProjectile_C_8] Floor
+[2015.11.05-21.37.51:873][224]LogBlueprintUserMessages: [FirstPersonProjectile_C_9] Wall3
+[2015.11.05-21.37.52:332][244]LogBlueprintUserMessages: [FirstPersonProjectile_C_10] Wall3
+[2015.11.05-21.37.52:679][260]LogBlueprintUserMessages: [FirstPersonProjectile_C_11] Wall3
+[2015.11.05-21.37.57:973][509]LogBlueprintUserMessages: [FirstPersonProjectile_C_12] BigWall2
+[2015.11.05-21.37.58:192][513]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003B82744E00
+[2015.11.05-21.37.59:724][559]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.05-21.38.02:498][559]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0028 seconds. Added 107 classes and 0 folders.
+[2015.11.05-21.39.02:117][893]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-21.39.02:118][893]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 11:39:02 PM)
+[2015.11.05-21.39.02:118][893]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-21.39.02:201][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082488s)
+[2015.11.05-21.39.02:205][893]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-21.39.02:207][893]LogPlayLevel: PIE: World Init took: (0.005059s)
+[2015.11.05-21.39.02:207][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.088979s)
+[2015.11.05-21.39.02:208][893]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-21.39.02:330][893]LogInit: XAudio2 using 'Lautsprecher (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-21.39.02:356][893]LogInit: FAudioDevice initialized.
+[2015.11.05-21.39.02:438][893]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.05-21.39.02:474][893]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.11.05-22.39.02
+[2015.11.05-21.39.02:474][893]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-21.39.02:475][893]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-21.39.02:477][893]LogWorld: Bringing up level for play took: 0.033328
+[2015.11.05-21.39.02:482][893]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.038
+[2015.11.05-21.39.13:237][111]LogBlueprintUserMessages: [FirstPersonProjectile_C_13] FirstPersonProjectile14
+[2015.11.05-21.39.13:238][111]LogBlueprintUserMessages: [FirstPersonProjectile_C_14] FirstPersonProjectile13
+[2015.11.05-21.39.13:486][116]LogBlueprintUserMessages: [FirstPersonProjectile_C_15] FirstPersonProjectile13
+[2015.11.05-21.39.13:534][117]LogBlueprintUserMessages: [FirstPersonProjectile_C_13] FirstPersonProjectile15
+[2015.11.05-21.39.14:632][139]LogBlueprintUserMessages: [FirstPersonProjectile_C_16] FirstPersonProjectile13
+[2015.11.05-21.39.14:685][140]LogBlueprintUserMessages: [FirstPersonProjectile_C_13] FirstPersonProjectile16
+[2015.11.05-21.39.15:773][162]LogBlueprintUserMessages: [FirstPersonProjectile_C_17] FirstPersonProjectile16
+[2015.11.05-21.39.15:827][163]LogBlueprintUserMessages: [FirstPersonProjectile_C_16] FirstPersonProjectile17
+[2015.11.05-21.39.17:851][204]LogBlueprintUserMessages: [FirstPersonProjectile_C_13] Floor
+[2015.11.05-21.39.17:852][204]LogBlueprintUserMessages: [FirstPersonProjectile_C_14] Floor
+[2015.11.05-21.39.18:044][208]LogBlueprintUserMessages: [FirstPersonProjectile_C_15] Floor
+[2015.11.05-21.39.18:581][219]LogBlueprintUserMessages: [FirstPersonProjectile_C_17] EditorCube11
+[2015.11.05-21.39.19:029][228]LogBlueprintUserMessages: [FirstPersonProjectile_C_16] Floor
+[2015.11.05-21.39.19:915][246]LogBlueprintUserMessages: [FirstPersonProjectile_C_17] Floor
+[2015.11.05-21.39.21:511][277]LogBlueprintUserMessages: [FirstPersonProjectile_C_18] Wall1
+[2015.11.05-21.39.27:820][406]LogBlueprintUserMessages: [FirstPersonProjectile_C_19] EditorCube11
+[2015.11.05-21.39.28:989][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003BAE12C5E0
+[2015.11.05-21.40.30:856][462]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.11.05-21.40.31:217][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-21.40.31:358][462]BlueprintEditorCompileResults: Info [0366.16] Compile of FirstPersonCharacter successful! [in 501 ms]
+[2015.11.05-21.40.33:700][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-21.40.33:701][504]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 11:40:33 PM)
+[2015.11.05-21.40.33:702][504]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-21.40.33:783][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081251s)
+[2015.11.05-21.40.33:786][504]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-21.40.33:787][504]LogPlayLevel: PIE: World Init took: (0.003579s)
+[2015.11.05-21.40.33:788][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.086214s)
+[2015.11.05-21.40.33:788][504]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-21.40.33:914][504]LogInit: XAudio2 using 'Lautsprecher (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-21.40.33:942][504]LogInit: FAudioDevice initialized.
+[2015.11.05-21.40.34:028][504]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.05-21.40.34:064][504]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.11.05-22.40.34
+[2015.11.05-21.40.34:064][504]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-21.40.34:065][504]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-21.40.34:067][504]LogWorld: Bringing up level for play took: 0.032736
+[2015.11.05-21.40.34:073][504]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.628
+[2015.11.05-21.40.34:687][514]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-21.40.35:513][532]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-21.40.35:701][536]LogBlueprintUserMessages: [FirstPersonProjectile_C_20] EditorCube11
+[2015.11.05-21.40.36:076][544]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-21.40.36:533][554]LogBlueprintUserMessages: [FirstPersonProjectile_C_21] EditorCube11
+[2015.11.05-21.40.37:109][567]LogBlueprintUserMessages: [FirstPersonProjectile_C_22] EditorCube11
+[2015.11.05-21.40.39:052][610]LogBlueprintUserMessages: [FirstPersonProjectile_C_20] EditorCube10
+[2015.11.05-21.40.39:325][616]LogBlueprintUserMessages: [FirstPersonProjectile_C_20] Floor
+[2015.11.05-21.40.39:605][622]LogBlueprintUserMessages: [FirstPersonProjectile_C_21] EditorCube10
+[2015.11.05-21.40.40:172][634]LogBlueprintUserMessages: [FirstPersonProjectile_C_21] Floor
+[2015.11.05-21.40.40:172][634]LogBlueprintUserMessages: [FirstPersonProjectile_C_22] EditorCube10
+[2015.11.05-21.40.40:809][648]LogBlueprintUserMessages: [FirstPersonProjectile_C_22] Floor
+[2015.11.05-21.40.46:468][774]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-21.40.47:439][796]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-21.40.48:487][819]LogBlueprintUserMessages: [FirstPersonProjectile_C_23] Wall1
+[2015.11.05-21.40.49:479][841]LogBlueprintUserMessages: [FirstPersonProjectile_C_24] Wall1
+[2015.11.05-21.40.52:117][897]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003B9B1679C0
+[2015.11.05-21.42.01:919][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-21.42.01:920][469]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 11:42:01 PM)
+[2015.11.05-21.42.01:920][469]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-21.42.02:000][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079715s)
+[2015.11.05-21.42.02:004][469]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-21.42.02:005][469]LogPlayLevel: PIE: World Init took: (0.004258s)
+[2015.11.05-21.42.02:005][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.085109s)
+[2015.11.05-21.42.02:006][469]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-21.42.02:107][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003B92EF82C0
+[2015.11.05-21.42.02:131][469]LogInit: XAudio2 using 'Lautsprecher (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-21.42.02:160][469]LogInit: FAudioDevice initialized.
+[2015.11.05-21.42.02:222][469]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.05-21.42.02:257][469]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.11.05-22.42.02
+[2015.11.05-21.42.02:257][469]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-21.42.02:258][469]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-21.42.02:260][469]LogWorld: Bringing up level for play took: 0.032659
+[2015.11.05-21.42.02:264][469]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.821
+[2015.11.05-21.42.04:635][526]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003BA66B8B80
+[2015.11.05-21.42.07:703][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-21.42.07:704][603]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 11:42:07 PM)
+[2015.11.05-21.42.07:704][603]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-21.42.07:781][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076653s)
+[2015.11.05-21.42.07:784][603]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-21.42.07:785][603]LogPlayLevel: PIE: World Init took: (0.004081s)
+[2015.11.05-21.42.07:786][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.082383s)
+[2015.11.05-21.42.07:908][603]LogInit: XAudio2 using 'Lautsprecher (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-21.42.07:931][603]LogInit: FAudioDevice initialized.
+[2015.11.05-21.42.07:995][603]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.05-21.42.08:027][603]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.11.05-22.42.08
+[2015.11.05-21.42.08:027][603]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-21.42.08:029][603]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-21.42.08:031][603]LogWorld: Bringing up level for play took: 0.030566
+[2015.11.05-21.42.08:036][603]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.591
+[2015.11.05-21.42.13:975][832]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-21.42.16:194][917]LogBlueprintUserMessages: [FirstPersonProjectile_C_28] Wall3
+[2015.11.05-21.42.18:203][993]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-21.42.18:814][ 16]LogBlueprintUserMessages: [FirstPersonProjectile_C_29] BigWall2
+[2015.11.05-21.42.20:305][ 72]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-21.42.20:936][ 96]LogBlueprintUserMessages: [FirstPersonProjectile_C_30] BigWall2
+[2015.11.05-21.42.21:152][104]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-21.42.21:681][123]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-21.42.21:762][126]LogBlueprintUserMessages: [FirstPersonProjectile_C_31] BigWall2
+[2015.11.05-21.42.22:204][142]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-21.42.22:316][146]LogBlueprintUserMessages: [FirstPersonProjectile_C_32] BigWall2
+[2015.11.05-21.42.22:686][159]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-21.42.22:850][165]LogBlueprintUserMessages: [FirstPersonProjectile_C_33] BigWall2
+[2015.11.05-21.42.23:372][184]LogBlueprintUserMessages: [FirstPersonProjectile_C_34] BigWall2
+[2015.11.05-21.42.23:583][192]LogBlueprintUserMessages: [FirstPersonProjectile_C_29] Wall3
+[2015.11.05-21.42.25:972][282]LogBlueprintUserMessages: [FirstPersonProjectile_C_30] Wall3
+[2015.11.05-21.42.26:409][299]LogBlueprintUserMessages: [FirstPersonProjectile_C_31] Wall3
+[2015.11.05-21.42.27:162][328]LogBlueprintUserMessages: [FirstPersonProjectile_C_32] Wall3
+[2015.11.05-21.42.27:291][333]LogBlueprintUserMessages: [FirstPersonProjectile_C_33] Wall3
+[2015.11.05-21.42.27:944][348]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003B968D93A0
+[2015.11.05-21.42.42:665][716]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-21.42.42:665][716]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 11:42:42 PM)
+[2015.11.05-21.42.42:666][716]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-21.42.42:748][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081920s)
+[2015.11.05-21.42.42:751][716]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-21.42.42:752][716]LogPlayLevel: PIE: World Init took: (0.004148s)
+[2015.11.05-21.42.42:753][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.087385s)
+[2015.11.05-21.42.42:754][716]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-21.42.42:871][716]LogInit: XAudio2 using 'Lautsprecher (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-21.42.42:893][716]LogInit: FAudioDevice initialized.
+[2015.11.05-21.42.42:965][716]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.05-21.42.42:996][716]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.11.05-22.42.42
+[2015.11.05-21.42.42:996][716]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-21.42.42:997][716]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-21.42.42:999][716]LogWorld: Bringing up level for play took: 0.028578
+[2015.11.05-21.42.43:004][716]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.441
+[2015.11.05-21.42.44:484][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003BC3423100
+[2015.11.05-21.42.48:067][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-21.42.48:068][840]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 11:42:48 PM)
+[2015.11.05-21.42.48:068][840]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-21.42.48:146][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077693s)
+[2015.11.05-21.42.48:149][840]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-21.42.48:150][840]LogPlayLevel: PIE: World Init took: (0.003800s)
+[2015.11.05-21.42.48:151][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.082778s)
+[2015.11.05-21.42.48:276][840]LogInit: XAudio2 using 'Lautsprecher (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-21.42.48:297][840]LogInit: FAudioDevice initialized.
+[2015.11.05-21.42.48:376][840]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.05-21.42.48:417][840]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.11.05-22.42.48
+[2015.11.05-21.42.48:418][840]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-21.42.48:419][840]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-21.42.48:422][840]LogWorld: Bringing up level for play took: 0.040373
+[2015.11.05-21.42.48:429][840]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.985
+[2015.11.05-21.42.49:412][865]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-21.42.51:323][925]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-21.42.51:485][930]LogBlueprintUserMessages: [FirstPersonProjectile_C_35] Wall1
+[2015.11.05-21.42.52:519][962]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-21.42.53:369][989]LogBlueprintUserMessages: [FirstPersonProjectile_C_36] Wall1
+[2015.11.05-21.42.54:571][ 27]LogBlueprintUserMessages: [FirstPersonProjectile_C_37] Wall1
+[2015.11.05-21.42.54:618][ 28]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-21.42.59:847][186]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SkySphereBlueprint"
+[2015.11.05-21.43.55:540][145]LogEditorViewport: Clicking Background
+[2015.11.05-21.57.25:870][783]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003BA38E31A0
+[2015.11.05-21.58.43:760][721]LogEditorTransaction: Undo Move Node
+[2015.11.05-21.58.44:254][726]LogEditorTransaction: Undo Add Node
+[2015.11.05-21.58.45:123][746]LogEditorTransaction: Undo Break Pin Links
+[2015.11.05-21.59.10:859][487]LogEditorTransaction: Undo Delete current selection
+[2015.11.05-21.59.13:291][555]LogEditorTransaction: Undo Change Text Pin Value
+[2015.11.05-21.59.13:891][573]LogEditorTransaction: Undo Add Node
+[2015.11.05-21.59.14:417][589]LogEditorTransaction: Undo Move Node
+[2015.11.05-21.59.15:123][610]LogEditorTransaction: Undo Move Node
+[2015.11.05-21.59.15:497][621]LogEditorTransaction: Undo Add Node
+[2015.11.05-21.59.15:769][629]LogEditorTransaction: Undo Clicking on Actors
+[2015.11.05-21.59.17:161][680]LogEditorTransaction: Redo Clicking on Actors
+[2015.11.05-21.59.17:418][686]LogEditorTransaction: Redo Add Node
+[2015.11.05-21.59.17:691][694]LogEditorTransaction: Redo Move Node
+[2015.11.05-21.59.18:016][703]LogEditorTransaction: Redo Move Node
+[2015.11.05-21.59.18:192][708]LogEditorTransaction: Redo Add Node
+[2015.11.05-21.59.19:011][734]LogEditorTransaction: Redo Change Text Pin Value
+[2015.11.05-21.59.19:322][743]LogEditorTransaction: Redo Delete current selection
+[2015.11.05-21.59.20:149][761]LogEditorTransaction: Undo Delete current selection
+[2015.11.05-22.01.07:974][736]BlueprintLog: New page: Compile FirstPersonProjectile
+[2015.11.05-22.01.08:464][736]BlueprintEditorCompileResults: Info [1603.27] Compile of FirstPersonProjectile successful! [in 489 ms]
+[2015.11.05-22.01.10:862][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-22.01.10:863][815]PIE: New page: PIE session: FirstPersonExampleMap (Nov 6, 2015, 12:01:10 AM)
+[2015.11.05-22.01.10:863][815]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-22.01.10:937][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073993s)
+[2015.11.05-22.01.10:941][815]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-22.01.10:942][815]LogPlayLevel: PIE: World Init took: (0.004528s)
+[2015.11.05-22.01.10:943][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.079850s)
+[2015.11.05-22.01.10:943][815]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-22.01.11:057][815]LogInit: XAudio2 using 'Lautsprecher (Conexant 20672 SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-22.01.11:080][815]LogInit: FAudioDevice initialized.
+[2015.11.05-22.01.11:149][815]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.05-22.01.11:177][815]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2015.11.05-23.01.11
+[2015.11.05-22.01.11:178][815]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-22.01.11:179][815]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-22.01.11:180][815]LogWorld: Bringing up level for play took: 0.026988
+[2015.11.05-22.01.11:184][815]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.261
+[2015.11.05-22.01.12:078][846]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.13:500][907]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.14:126][934]LogBlueprintUserMessages: [FirstPersonProjectile_C_4] Wall1
+[2015.11.05-22.01.15:530][995]LogBlueprintUserMessages: [FirstPersonProjectile_C_5] Wall1
+[2015.11.05-22.01.15:633][999]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.16:472][ 35]Set new viewmode: Unlit
+[2015.11.05-22.01.17:255][ 70]Set new viewmode: Unlit
+[2015.11.05-22.01.17:328][ 73]LogBlueprintUserMessages: [FirstPersonProjectile_C_6] Wall1
+[2015.11.05-22.01.20:931][233]LogSelection:Warning: PIE object was selected: "FirstPersonProjectile_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonProjectile_C_5"
+[2015.11.05-22.01.28:461][504]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.29:776][550]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.30:468][574]LogBlueprintUserMessages: [FirstPersonProjectile_C_7] Wall1
+[2015.11.05-22.01.30:539][576]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.31:148][597]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.31:951][624]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.32:580][646]LogBlueprintUserMessages: [FirstPersonProjectile_C_9] Wall3
+[2015.11.05-22.01.32:745][651]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.33:567][679]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.34:874][723]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.36:093][764]LogBlueprintUserMessages: [FirstPersonProjectile_C_13] Wall2
+[2015.11.05-22.01.37:262][804]LogBlueprintUserMessages: [FirstPersonProjectile_C_14] Wall2
+[2015.11.05-22.01.38:580][849]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.40:217][905]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.41:251][939]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.42:117][968]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.47:959][163]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.48:864][193]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.49:172][203]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.49:451][212]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.49:900][226]LogBlueprintUserMessages: [FirstPersonProjectile_C_19] Wall4
+[2015.11.05-22.01.49:942][227]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.50:414][242]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.50:808][254]LogBlueprintUserMessages: [FirstPersonProjectile_C_20] Wall4
+[2015.11.05-22.01.51:099][263]LogBlueprintUserMessages: [FirstPersonProjectile_C_21] Wall4
+[2015.11.05-22.01.51:391][272]LogBlueprintUserMessages: [FirstPersonProjectile_C_22] Wall4
+[2015.11.05-22.01.51:927][289]LogBlueprintUserMessages: [FirstPersonProjectile_C_23] Wall4
+[2015.11.05-22.01.52:837][318]LogBlueprintUserMessages: [FirstPersonProjectile_C_24] Wall4
+[2015.11.05-22.01.52:934][321]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.53:064][325]LogBlueprintUserMessages: [FirstPersonProjectile_C_22] FirstPersonProjectile21
+[2015.11.05-22.01.53:096][326]LogBlueprintUserMessages: [FirstPersonProjectile_C_21] FirstPersonProjectile22
+[2015.11.05-22.01.53:578][341]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.55:411][399]LogBlueprintUserMessages: [FirstPersonProjectile_C_25] Wall4
+[2015.11.05-22.01.55:537][403]LogBlueprintUserMessages: [FirstPersonProjectile_C_26] Wall1
+[2015.11.05-22.01.58:346][493]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.01.59:018][514]LogBlueprintUserMessages: [FirstPersonProjectile_C_27] EditorCube14
+[2015.11.05-22.02.00:599][562]LogBlueprintUserMessages: [FirstPersonProjectile_C_27] Wall1
+[2015.11.05-22.02.04:243][676]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.02.05:914][728]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.02.06:053][732]LogBlueprintUserMessages: [FirstPersonProjectile_C_28] Wall3
+[2015.11.05-22.02.06:942][760]LogBlueprintUserMessages: [FirstPersonProjectile_C_29] Wall1
+[2015.11.05-22.02.09:106][827]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.02.09:630][843]LogBlueprintUserMessages: [FirstPersonProjectile_C_29] Wall3
+[2015.11.05-22.02.10:707][877]LogBlueprintUserMessages: [FirstPersonProjectile_C_30] Wall1
+[2015.11.05-22.02.12:346][925]LogBlueprintUserMessages: [FirstPersonProjectile_C_30] Wall3
+[2015.11.05-22.02.13:365][957]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.02.14:626][995]LogBlueprintUserMessages: [FirstPersonProjectile_C_31] Wall3
+[2015.11.05-22.02.15:882][ 33]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.02.16:507][ 52]LogBlueprintUserMessages: [FirstPersonProjectile_C_32] BigWall2
+[2015.11.05-22.02.17:097][ 70]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.02.17:698][ 88]LogBlueprintUserMessages: [FirstPersonProjectile_C_33] BigWall2
+[2015.11.05-22.02.21:195][194]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.02.21:493][203]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Swag
+[2015.11.05-22.02.23:959][273]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003BEF588540
+[2015.11.05-22.03.10:183][474]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-22.03.19:996][474]LogSavePackage: Save=9558.314453ms
+[2015.11.05-22.03.19:996][474]LogSavePackage: Moving '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Saved/FirstPersonExampleMap_Auto1AD9FE4FA4CEA912CEB1E07818C129267.tmp' to '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2015.11.05-22.03.20:003][474]LogSavePackage: Total save time: 9701.542370ms
+[2015.11.05-22.03.20:003][474]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2015.11.05-22.03.20:017][474]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 9.834
+[2015.11.05-22.03.20:017][474]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 9.834
+[2015.11.05-22.03.20:043][474]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2015.11.05-22.03.20:098][474]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2015.11.05-22.03.20:099][474]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2015.11.05-22.03.20:184][474]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:185][474]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseTurnRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:186][474]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseLookUpRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:187][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:187][474]LogBlueprintUserMessages: Serialization for Get node for variable 'MzzleVelocity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:188][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:188][474]LogBlueprintUserMessages: Serialization for Get node for variable 'FP_Gun' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:253][474]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:254][474]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseTurnRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:254][474]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseLookUpRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:255][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:255][474]LogBlueprintUserMessages: Serialization for Get node for variable 'MzzleVelocity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:256][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:256][474]LogBlueprintUserMessages: Serialization for Get node for variable 'FP_Gun' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:322][474]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:322][474]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseTurnRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:323][474]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseLookUpRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:323][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:324][474]LogBlueprintUserMessages: Serialization for Get node for variable 'MzzleVelocity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:324][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:324][474]LogBlueprintUserMessages: Serialization for Get node for variable 'FP_Gun' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:549][474]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseTurnRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:550][474]LogBlueprintUserMessages: Serialization for Get node for variable 'MzzleVelocity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:550][474]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:550][474]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseLookUpRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:551][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:551][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:551][474]LogBlueprintUserMessages: Serialization for Get node for variable 'FP_Gun' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:695][474]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseTurnRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:696][474]LogBlueprintUserMessages: Serialization for Get node for variable 'MzzleVelocity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:696][474]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:696][474]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseLookUpRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:696][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:697][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:697][474]LogBlueprintUserMessages: Serialization for Get node for variable 'FP_Gun' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.03.20:711][474]LogSavePackage: Save=581.621521ms
+[2015.11.05-22.03.20:711][474]LogSavePackage: Moving '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Saved/FirstPersonCharacter_Auto19F2A5ABA4774B3FAE798DF8BFBA478A3.tmp' to '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
+[2015.11.05-22.03.20:720][474]LogSavePackage: Total save time: 616.278075ms
+[2015.11.05-22.03.20:720][474]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset
+[2015.11.05-22.03.20:738][474]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonProjectile] ([1] browsable assets)...
+[2015.11.05-22.03.20:787][474]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile]
+[2015.11.05-22.03.20:787][474]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonProjectile]
+[2015.11.05-22.03.20:878][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:878][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:879][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:879][474]LogBlueprintUserMessages: Serialization for Get node for variable 'BulletTimeFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:880][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Gravity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:880][474]LogBlueprintUserMessages: Serialization for Get node for variable 'GravityFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:880][474]LogBlueprintUserMessages: Serialization for Get node for variable 'RelativeDecelerationPerSecond' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:881][474]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:882][474]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:882][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Wind' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:882][474]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:882][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:883][474]LogBlueprintUserMessages: Serialization for Get node for variable 'SpeedReducementFactorPerCentimeter' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:883][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:884][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Sphere' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:948][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:949][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:949][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:949][474]LogBlueprintUserMessages: Serialization for Get node for variable 'BulletTimeFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:950][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Gravity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:950][474]LogBlueprintUserMessages: Serialization for Get node for variable 'GravityFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:950][474]LogBlueprintUserMessages: Serialization for Get node for variable 'RelativeDecelerationPerSecond' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:951][474]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:951][474]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:952][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Wind' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:952][474]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:952][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:952][474]LogBlueprintUserMessages: Serialization for Get node for variable 'SpeedReducementFactorPerCentimeter' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:952][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.20:953][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Sphere' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:028][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:029][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:029][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:029][474]LogBlueprintUserMessages: Serialization for Get node for variable 'BulletTimeFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:030][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Gravity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:030][474]LogBlueprintUserMessages: Serialization for Get node for variable 'GravityFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:030][474]LogBlueprintUserMessages: Serialization for Get node for variable 'RelativeDecelerationPerSecond' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:031][474]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:031][474]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:032][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Wind' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:032][474]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:032][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:033][474]LogBlueprintUserMessages: Serialization for Get node for variable 'SpeedReducementFactorPerCentimeter' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:033][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:033][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Sphere' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:240][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Gravity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:240][474]LogBlueprintUserMessages: Serialization for Get node for variable 'GravityFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:241][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:241][474]LogBlueprintUserMessages: Serialization for Get node for variable 'SpeedReducementFactorPerCentimeter' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:241][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:241][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:241][474]LogBlueprintUserMessages: Serialization for Get node for variable 'RelativeDecelerationPerSecond' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:242][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Sphere' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:242][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:242][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:242][474]LogBlueprintUserMessages: Serialization for Get node for variable 'BulletTimeFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:242][474]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:243][474]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:243][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Wind' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:243][474]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:415][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Gravity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:416][474]LogBlueprintUserMessages: Serialization for Get node for variable 'GravityFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:416][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:416][474]LogBlueprintUserMessages: Serialization for Get node for variable 'SpeedReducementFactorPerCentimeter' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:417][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:417][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:417][474]LogBlueprintUserMessages: Serialization for Get node for variable 'RelativeDecelerationPerSecond' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:418][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Sphere' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:418][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:418][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:419][474]LogBlueprintUserMessages: Serialization for Get node for variable 'BulletTimeFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:419][474]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:419][474]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:420][474]LogBlueprintUserMessages: Serialization for Get node for variable 'Wind' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:420][474]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.03.21:432][474]LogSavePackage: Save=607.880798ms
+[2015.11.05-22.03.21:432][474]LogSavePackage: Moving '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Saved/FirstPersonProjectile_Auto147BAF5054D0BC3471F3413B5AD7F3354.tmp' to '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonProjectile_Auto1.uasset'
+[2015.11.05-22.03.21:439][474]LogSavePackage: Total save time: 643.700473ms
+[2015.11.05-22.03.21:439][474]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonProjectile_Auto1.uasset
+[2015.11.05-22.03.21:439][474]LogFileHelpers: Auto-saving content packages took 1.416
+[2015.11.05-22.06.01:703][880]LogRenderer: Reallocating scene render targets to support 1172x484 (Frame:16372).
+[2015.11.05-22.07.40:311][194]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-22.07.43:909][194]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.43:909][194]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseTurnRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.43:910][194]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseLookUpRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.43:910][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.43:910][194]LogBlueprintUserMessages: Serialization for Get node for variable 'MzzleVelocity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.43:911][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.43:911][194]LogBlueprintUserMessages: Serialization for Get node for variable 'FP_Gun' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.43:978][194]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.43:979][194]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseTurnRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.43:980][194]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseLookUpRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.43:981][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.43:981][194]LogBlueprintUserMessages: Serialization for Get node for variable 'MzzleVelocity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.43:982][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.43:982][194]LogBlueprintUserMessages: Serialization for Get node for variable 'FP_Gun' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:064][194]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:064][194]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseTurnRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:065][194]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseLookUpRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:065][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:066][194]LogBlueprintUserMessages: Serialization for Get node for variable 'MzzleVelocity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:066][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:067][194]LogBlueprintUserMessages: Serialization for Get node for variable 'FP_Gun' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:313][194]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseTurnRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:313][194]LogBlueprintUserMessages: Serialization for Get node for variable 'MzzleVelocity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:314][194]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:314][194]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseLookUpRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:315][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:315][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:316][194]LogBlueprintUserMessages: Serialization for Get node for variable 'FP_Gun' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:444][194]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseTurnRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:445][194]LogBlueprintUserMessages: Serialization for Get node for variable 'MzzleVelocity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:445][194]LogBlueprintUserMessages: Serialization for Get node for variable 'GunOffset' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:445][194]LogBlueprintUserMessages: Serialization for Get node for variable 'BaseLookUpRate' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:445][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:445][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Mesh2P' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:445][194]LogBlueprintUserMessages: Serialization for Get node for variable 'FP_Gun' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter' which is setup as pure
+[2015.11.05-22.07.44:458][194]LogSavePackage: Save=608.812134ms
+[2015.11.05-22.07.44:458][194]LogSavePackage: Moving '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Saved/FirstPersonCharacter6C2353B242C4B3661B3307BCB9248EFF.tmp' to '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2015.11.05-22.07.44:482][194]LogSavePackage: Total save time: 652.249146ms
+[2015.11.05-22.07.44:483][194]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2015.11.05-22.07.44:605][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:606][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:607][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:607][194]LogBlueprintUserMessages: Serialization for Get node for variable 'BulletTimeFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:607][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Gravity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:608][194]LogBlueprintUserMessages: Serialization for Get node for variable 'GravityFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:608][194]LogBlueprintUserMessages: Serialization for Get node for variable 'RelativeDecelerationPerSecond' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:610][194]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:610][194]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:611][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Wind' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:611][194]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:612][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:612][194]LogBlueprintUserMessages: Serialization for Get node for variable 'SpeedReducementFactorPerCentimeter' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:613][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:613][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Sphere' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:702][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:703][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:703][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:703][194]LogBlueprintUserMessages: Serialization for Get node for variable 'BulletTimeFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:704][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Gravity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:704][194]LogBlueprintUserMessages: Serialization for Get node for variable 'GravityFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:704][194]LogBlueprintUserMessages: Serialization for Get node for variable 'RelativeDecelerationPerSecond' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:705][194]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:705][194]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:705][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Wind' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:705][194]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:706][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:706][194]LogBlueprintUserMessages: Serialization for Get node for variable 'SpeedReducementFactorPerCentimeter' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:707][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:707][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Sphere' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:788][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:788][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:789][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:789][194]LogBlueprintUserMessages: Serialization for Get node for variable 'BulletTimeFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:789][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Gravity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:790][194]LogBlueprintUserMessages: Serialization for Get node for variable 'GravityFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:790][194]LogBlueprintUserMessages: Serialization for Get node for variable 'RelativeDecelerationPerSecond' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:791][194]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:791][194]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:791][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Wind' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:791][194]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:791][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:791][194]LogBlueprintUserMessages: Serialization for Get node for variable 'SpeedReducementFactorPerCentimeter' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:792][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:792][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Sphere' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:997][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Gravity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:997][194]LogBlueprintUserMessages: Serialization for Get node for variable 'GravityFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:998][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:998][194]LogBlueprintUserMessages: Serialization for Get node for variable 'SpeedReducementFactorPerCentimeter' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:998][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:998][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:998][194]LogBlueprintUserMessages: Serialization for Get node for variable 'RelativeDecelerationPerSecond' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:999][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Sphere' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:999][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:999][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:999][194]LogBlueprintUserMessages: Serialization for Get node for variable 'BulletTimeFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:999][194]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.44:999][194]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:000][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Wind' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:000][194]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:140][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Gravity' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:140][194]LogBlueprintUserMessages: Serialization for Get node for variable 'GravityFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:141][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:141][194]LogBlueprintUserMessages: Serialization for Get node for variable 'SpeedReducementFactorPerCentimeter' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:141][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:141][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Speed' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:142][194]LogBlueprintUserMessages: Serialization for Get node for variable 'RelativeDecelerationPerSecond' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:142][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Sphere' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:142][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:143][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Time' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:143][194]LogBlueprintUserMessages: Serialization for Get node for variable 'BulletTimeFactor' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:143][194]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:144][194]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:144][194]LogBlueprintUserMessages: Serialization for Get node for variable 'Wind' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:144][194]LogBlueprintUserMessages: Serialization for Get node for variable 'HitActors' in Blueprint '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile' which is setup as pure
+[2015.11.05-22.07.45:159][194]LogSavePackage: Save=624.712830ms
+[2015.11.05-22.07.45:159][194]LogSavePackage: Moving '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Saved/FirstPersonProjectile67A3DBBA48A84EE9B6EBD096068BDDC1.tmp' to '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2015.11.05-22.07.45:177][194]LogSavePackage: Total save time: 657.824386ms
+[2015.11.05-22.07.45:177][194]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2015.11.05-22.07.52:967][194]LogSavePackage: Save=7301.166016ms
+[2015.11.05-22.07.52:967][194]LogSavePackage: Moving '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Saved/FirstPersonExampleMap22E5471145B3ED307E6C578F218DC91D.tmp' to '../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.11.05-22.07.52:999][194]LogSavePackage: Total save time: 7347.745940ms
+[2015.11.05-22.07.52:999][194]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/JP/Documents/Unreal Projects/TestCalculus/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2015.11.05-22.07.53:186][194]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 7.996
+[2015.11.05-22.07.53:855][194]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.05-22.07.54:767][195]Cmd: QUIT_EDITOR
+[2015.11.05-22.07.56:364][195]LogExit: Preparing to exit.
+[2015.11.05-22.07.57:354][195]LogExit: Editor shut down
+[2015.11.05-22.07.57:355][195]LogExit: Transaction tracking system shut down
+[2015.11.05-22.07.57:370][195]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003B88E61440
+[2015.11.05-22.07.57:372][195]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003B8E6DE340
+[2015.11.05-22.07.57:372][195]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003B920B2840
+[2015.11.05-22.07.57:382][195]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003BA66BBEC0
+[2015.11.05-22.07.57:383][195]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003B968DA480
+[2015.11.05-22.07.57:384][195]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003B88E60720
+[2015.11.05-22.07.58:561][195]LogExit: Object subsystem successfully closed.
+[2015.11.05-22.07.58:593][195]LogD3D11RHI: Shutdown
+[2015.11.05-22.07.58:593][195]LogD3D11RHI: CleanupD3DDevice
+[2015.11.05-22.07.58:895][195]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.05-22.07.59:058][195]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.11.05-22.07.59:058][195]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.11.05-22.07.59:058][195]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.11.05-22.07.59:058][195]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.11.05-22.07.59:058][195]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.11.05-22.07.59:058][195]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.11.05-22.07.59:064][195]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.11.05-22.07.59:064][195]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.11.05-22.07.59:065][195]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.11.05-22.07.59:065][195]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.11.05-22.07.59:065][195]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.11.05-22.07.59:067][195]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.11.05-22.07.59:067][195]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.11.05-22.07.59:067][195]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.11.05-22.07.59:067][195]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.11.05-22.07.59:067][195]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.11.05-22.07.59:067][195]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.11.05-22.07.59:067][195]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.11.05-22.07.59:068][195]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.11.05-22.07.59:068][195]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.11.05-22.07.59:068][195]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.11.05-22.07.59:069][195]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.11.05-22.07.59:069][195]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.11.05-22.07.59:069][195]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.11.05-22.07.59:070][195]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.11.05-22.07.59:070][195]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.11.05-22.07.59:070][195]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.11.05-22.07.59:736][195]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.11.05-22.07.59:736][195]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.11.05-22.07.59:736][195]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.11.05-22.07.59:736][195]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.11.05-22.07.59:738][195]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.11.05-22.07.59:738][195]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.11.05-22.07.59:738][195]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.11.05-22.07.59:738][195]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.11.05-22.07.59:738][195]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.11.05-22.07.59:738][195]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.11.05-22.07.59:738][195]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.11.05-22.07.59:739][195]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.11.05-22.07.59:739][195]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.11.05-22.07.59:739][195]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.11.05-22.07.59:739][195]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.11.05-22.07.59:739][195]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.11.05-22.07.59:739][195]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.11.05-22.07.59:739][195]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.11.05-22.07.59:739][195]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.11.05-22.07.59:740][195]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.11.05-22.07.59:740][195]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.11.05-22.07.59:741][195]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.11.05-22.07.59:741][195]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.11.05-22.07.59:741][195]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.11.05-22.07.59:742][195]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.11.05-22.07.59:742][195]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.11.05-22.07.59:742][195]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.11.05-22.07.59:742][195]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.11.05-22.07.59:743][195]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.11.05-22.07.59:744][195]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.11.05-22.07.59:744][195]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.11.05-22.07.59:744][195]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.11.05-22.07.59:745][195]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.11.05-22.07.59:745][195]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.11.05-22.07.59:745][195]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.11.05-22.07.59:745][195]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.11.05-22.07.59:745][195]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.11.05-22.07.59:745][195]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.11.05-22.07.59:746][195]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.11.05-22.07.59:746][195]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.11.05-22.07.59:746][195]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.11.05-22.07.59:747][195]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.11.05-22.07.59:747][195]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.11.05-22.07.59:747][195]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.11.05-22.07.59:747][195]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.11.05-22.07.59:747][195]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.11.05-22.07.59:747][195]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.11.05-22.07.59:747][195]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.11.05-22.07.59:747][195]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.11.05-22.07.59:747][195]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.11.05-22.07.59:820][195]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.11.05-22.07.59:820][195]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.11.05-22.07.59:820][195]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.11.05-22.07.59:821][195]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.11.05-22.07.59:821][195]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.11.05-22.07.59:821][195]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.11.05-22.07.59:821][195]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.11.05-22.07.59:821][195]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.11.05-22.07.59:869][195]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.11.05-22.07.59:871][195]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.11.05-22.07.59:871][195]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.11.05-22.07.59:871][195]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.11.05-22.07.59:871][195]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.11.05-22.07.59:872][195]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.11.05-22.07.59:872][195]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.11.05-22.07.59:872][195]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.11.05-22.07.59:872][195]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.11.05-22.07.59:872][195]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.11.05-22.07.59:872][195]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.11.05-22.07.59:872][195]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.11.05-22.07.59:872][195]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.11.05-22.07.59:872][195]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.11.05-22.07.59:873][195]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.11.05-22.07.59:873][195]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.11.05-22.07.59:873][195]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.11.05-22.07.59:873][195]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.11.05-22.07.59:873][195]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.11.05-22.07.59:873][195]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.11.05-22.07.59:873][195]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.11.05-22.07.59:873][195]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.05-22.07.59:874][195]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.11.05-22.07.59:874][195]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.11.05-22.07.59:877][195]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.11.05-22.07.59:880][195]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.11.05-22.08.00:077][195]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.11.05-22.08.00:079][195]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.11.05-22.08.00:081][195]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.05-22.08.00:182][195]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.05-22.08.00:182][195]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.05-22.08.00:182][195]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.05-22.08.00:192][195]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.05-22.08.00:192][195]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.05-22.08.00:192][195]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.05-22.08.00:192][195]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.05-22.08.00:192][195]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.05-22.08.00:193][195]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.05-22.08.00:193][195]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.05-22.08.00:193][195]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.05-22.08.00:193][195]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.05-22.08.00:193][195]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.05-22.08.00:193][195]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.05-22.08.00:194][195]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.05-22.08.00:195][195]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.05-22.08.00:196][195]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.05-22.08.00:196][195]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.05-22.08.00:196][195]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.05-22.08.00:206][195]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.05-22.08.00:206][195]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.05-22.08.00:206][195]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.05-22.08.00:206][195]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.05-22.08.00:206][195]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.05-22.08.00:206][195]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.05-22.08.00:206][195]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.05-22.08.00:206][195]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.05-22.08.00:206][195]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.05-22.08.00:207][195]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.05-22.08.00:211][195]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.05-22.08.00:266][195]LogDerivedDataCache: Shutdown
+[2015.11.05-22.08.00:266][195]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.05-22.08.00:267][195]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.05-22.08.00:267][195]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.05-22.08.00:268][195]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.05-22.08.00:268][195]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.05-22.08.00:268][195]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.05-22.08.00:268][195]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.05-22.08.00:268][195]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.05-22.08.00:268][195]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.05-22.08.00:268][195]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.05-22.08.00:268][195]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.05-22.08.00:269][195]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.05-22.08.00:269][195]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.05-22.08.00:269][195]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.05-22.08.00:269][195]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.05-22.08.00:269][195]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.05-22.08.00:269][195]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.05-22.08.00:269][195]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.05-22.08.00:269][195]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.05-22.08.00:269][195]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.05-22.08.00:269][195]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.05-22.08.00:269][195]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.05-22.08.00:269][195]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.05-22.08.00:269][195]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.05-22.08.00:269][195]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.05-22.08.00:269][195]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.05-22.08.00:269][195]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.05-22.08.00:269][195]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.05-22.08.00:270][195]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.05-22.08.00:270][195]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.05-22.08.00:270][195]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.05-22.08.00:270][195]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.05-22.08.00:270][195]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.05-22.08.00:270][195]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.05-22.08.00:270][195]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.05-22.08.00:270][195]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.05-22.08.02:276][195]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.05-22.08.02:278][195]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.05-22.08.02:278][195]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.05-22.08.02:278][195]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.05-22.08.02:279][195]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.05-22.08.02:279][195]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.05-22.08.02:291][195]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.05-22.08.02:291][195]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.05-22.08.02:291][195]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.05-22.08.02:291][195]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.05-22.08.02:291][195]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.05-22.08.02:291][195]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.05-22.08.02:291][195]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.05-22.08.02:292][195]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.05-22.08.02:292][195]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.05-22.08.02:292][195]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.05-22.08.02:294][195]LogExit: Exiting.
+[2015.11.05-22.08.02:298][195]Log file closed, 11/05/15 23:08:02
